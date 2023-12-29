@@ -1,0 +1,52 @@
+main{
+
+padding: 10px;
+}
+/*------section ultima-vista-------- */
+main section.ultima-vista{
+
+}
+
+main section.ultima-vista h2{
+
+margin: 0;
+
+padding-top: 20px;
+
+text-align: center;
+
+padding-bottom: 20px;
+}
+
+main section.ultima-vista article{
+   margin: auto; 
+}
+
+main section.ultima-vista article img{
+    width: 90%;
+    margin-left: 20px;
+}
+
+/*-----SECCION OFERTAS-----*/
+
+main section.ofertas{
+
+}
+main section.ofertas h2{
+    margin: 0;
+
+padding-top: 20px;
+
+text-align: center;
+
+padding-bottom: 20px;
+}
+
+main section.ofertas article{
+
+}
+
+main section.ofertas article img{
+    width: 90%;
+    margin-left: 20px;
+}

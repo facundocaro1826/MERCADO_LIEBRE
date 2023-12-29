@@ -1,0 +1,94 @@
+footer{
+
+}
+/*------seccion medios de pago------*/
+footer section.medios-pago{
+
+margin-bottom: 50px;
+
+width: 80%;
+
+margin: auto;
+}
+footer section.medios-pago svg{
+   margin: auto;
+} 
+
+footer section.medios-pago h3{
+text-align: center;
+}
+footer section.medios-pago h3 ul{
+
+margin: 10px 0px 0px 0px;
+}
+footer section.medios-pago p{
+ text-align: center;
+}
+
+/*--------section envios-------*/
+
+footer section.envios{
+
+margin-bottom: 40px;
+
+width: 80%;
+
+/* margin-bottom: 50px; */
+
+margin: auto;
+}
+footer section.envios svg{
+
+margin: auto;
+
+/* margin-left: 90px; */
+} 
+footer section.envios h3{
+    text-align: center;
+}
+footer section.envios h3 ul{
+
+text-align: center;
+}
+footer section.envios p{
+
+text-align: center;
+}
+
+/*-----section seguridad------*/
+
+footer section.seguridad{
+
+width: 80%;
+margin-bottom: 50px;
+margin: auto;
+}
+footer section.seguridad svg{
+margin: auto;
+} 
+footer section.seguridad h3{
+ text-align: center;
+}
+footer section.seguridad h3 ul{
+
+text-align: center;
+}
+footer section.seguridad p{
+
+text-align: center;
+}
+
+/*-------section derechos reservados----*/
+
+footer section.derechos-reservados{
+
+}
+footer section.derechos-reservados h3{
+
+}
+footer section.derechos-reservados h3 ul{
+
+}
+
+
+

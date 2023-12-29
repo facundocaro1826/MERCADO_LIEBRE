@@ -1,0 +1,88 @@
+
+header{
+    background-color: var(--amarillo);
+}
+
+header img.logo{
+width: 60%;
+margin: 20px;
+}
+header form{
+    margin: 0 10px;
+   
+}
+header form input{
+
+padding: 3px;
+}
+header i.fa-magnifying-glass{
+    
+margin-left: 10px;
+    
+margin-top: 5px;
+}
+header p{
+
+text-align: center;
+}
+header p i.fa-hand-holding-dollar{
+
+margin: 10px;
+}
+
+/*------ nav-login------ */
+header nav.login-bar{
+
+}
+
+header nav.login-bar ul{
+
+}
+
+header nav.login-bar ul li{
+
+}
+/*------nav-search-------*/
+
+header nav.search-bar{
+
+}
+
+header nav.search-bar ul{
+
+}
+
+header nav.search-bar ul li{
+
+}
+header i.fa-id-card{
+    margin-left: 5px;
+    /* width: 30px; */
+}
+header i.fa-right-to-bracket{
+    margin-left: 5px;
+}
+
+header i.fa-basket-shopping{
+    margin-left: 5px;
+}
+
+.burguer-menu{
+    width: 60px;
+    background-color: var(--celeste);
+    height: 60px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.burguer-menu svg{
+    
+margin-left: 14px;
+    
+margin-top: 14px;
+}
+header img.banner{
+    
+width: 100%;
+}
+

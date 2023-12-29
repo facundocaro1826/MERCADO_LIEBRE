@@ -1,0 +1,59 @@
+:root {
+    /*-----fuentes------*/
+    --fontRoboto: 'Roboto', sans-serif;
+
+    /*-----colores-----*/
+    --amarillo:  #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #ebebeb;
+    --verde: #39b54a;
+
+    /*---TAMAÑOS TIPOGRAFICOS-----*/
+    --cuerpoTexto: 12px;
+    --titulares: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripciones: 16px;
+
+}
+body{
+    box-sizing: border-box;
+    font-size: var(--cuerpoTexto);
+    font-family: var(--fontRoboto);
+    width: auto;
+    }
+main{
+    background-color: var(--grisOscuro);
+}    
+a{
+  color: black;
+  text-decoration: none; /* saca el subrayado */ 
+}
+ul{
+    padding: 0;
+    list-style: none; /* saca las biñetas */
+   }
+
+article img{
+    width: 80;
+    width: 60;
+} 
+h2{
+    font-size: var(--titulares);
+} 
+section p.precio{
+    font-size: var(--precio);
+}
+
+
+section p.descuento{
+    font-size: var(--precio);
+}
+
+
+section p.descripcion{
+    font-size: var(--descripciones);
+}
+
+   
