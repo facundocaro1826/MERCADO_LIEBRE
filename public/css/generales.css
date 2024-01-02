@@ -55,5 +55,8 @@ section p.descuento{
 section p.descripcion{
     font-size: var(--descripciones);
 }
+article{
+    background-color: rgb(249, 251, 253);
+}
 
    
