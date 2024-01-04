@@ -1,5 +1,5 @@
 footer{
-
+padding-top: 20px;
 }
 /*------seccion medios de pago------*/
 footer section.medios-pago{
@@ -12,12 +12,16 @@ margin: auto;
 }
 footer section.medios-pago svg{
    margin: auto;
+  
 } 
+footer section.medios-pago svg path{
 
-footer section.medios-pago h3{
+}
+
+footer section.medios-pago{
 text-align: center;
 }
-footer section.medios-pago h3 ul{
+footer section.medios-pago ul{
 
 margin: 10px 0px 0px 0px;
 }
@@ -43,10 +47,10 @@ margin: auto;
 
 /* margin-left: 90px; */
 } 
-footer section.envios h3{
+footer section.envios{
     text-align: center;
 }
-footer section.envios h3 ul{
+footer section.envios ul{
 
 text-align: center;
 }
@@ -66,10 +70,10 @@ margin: auto;
 footer section.seguridad svg{
 margin: auto;
 } 
-footer section.seguridad h3{
+footer section.seguridad{
  text-align: center;
 }
-footer section.seguridad h3 ul{
+footer section.seguridad ul{
 
 text-align: center;
 }
@@ -83,10 +87,10 @@ text-align: center;
 footer section.derechos-reservados{
 
 }
-footer section.derechos-reservados h3{
+footer section.derechos-reservados{
 
 }
-footer section.derechos-reservados h3 ul{
+footer section.derechos-reservados ul{
 
 }
 
