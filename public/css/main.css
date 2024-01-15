@@ -1,6 +1,5 @@
 main{
-
-padding: 10px;
+padding: 10px;
 }
 /*------section ultima-vista-------- */
 main section.ultima-vista{
@@ -19,7 +18,8 @@ padding-bottom: 20px;
 }
 
 main section.ultima-vista article{
-   margin: auto; 
+   margin: auto;
+   margin-bottom: 10px;
 }
 
 main section.ultima-vista article img{
@@ -43,7 +43,7 @@ padding-bottom: 20px;
 }
 
 main section.ofertas article{
-
+margin-bottom: 10px;
 }
 
 main section.ofertas article img{

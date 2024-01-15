@@ -21,7 +21,7 @@ body{
     box-sizing: border-box;
     font-size: var(--cuerpoTexto);
     font-family: var(--fontRoboto);
-    width: auto;
+    width: 90%;
     }
 main{
     background-color: var(--grisOscuro);
@@ -54,7 +54,10 @@ section p.descuento{
 
 section p.descripcion{
     font-size: var(--descripciones);
+    margin: 0;
 }
+
+p.descripcion {}
 article{
     background-color: rgb(249, 251, 253);
 }
