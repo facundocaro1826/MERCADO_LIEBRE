@@ -22,6 +22,7 @@ body{
     font-size: var(--cuerpoTexto);
     font-family: var(--fontRoboto);
     width: 90%;
+    margin: auto;
     }
 main{
     background-color: var(--grisOscuro);
@@ -41,6 +42,7 @@ article img{
 } 
 h2{
     font-size: var(--titulares);
+    color: #646662;
 } 
 section p.precio{
     font-size: var(--precio);
@@ -49,6 +51,7 @@ section p.precio{
 
 section p.descuento{
     font-size: var(--precio);
+    color: #26b33b;
 }
 
 
@@ -57,7 +60,9 @@ section p.descripcion{
     margin: 0;
 }
 
-p.descripcion {}
+p.descripcion {
+    display: none;
+}
 article{
     background-color: rgb(249, 251, 253);
 }
