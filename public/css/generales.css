@@ -55,9 +55,10 @@ section p.descuento{
 }
 
 
-section p.descripcion{
+section h3.descripcion{
     font-size: var(--descripciones);
     margin: 0;
+    display: none;
 }
 
 p.descripcion {
