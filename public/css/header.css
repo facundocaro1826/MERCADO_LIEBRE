@@ -1,31 +1,44 @@
 
 header{
     background-color: var(--amarillo);
+    flex-wrap: wrap;
 }
+
+header {}
 
 header img.logo{
-
-width: 60%;
-
-margin: 20px;
+width: 50%;
+/* margin: 5px; */
 }
+header .contenedor-logo{display: flex;flex-wrap: wrap;padding: 10px;align-items: center;justify-content: space-between;}
+
+header .contenedor-bar{}
+
 header form{
-    margin: 0 0 0 10px;
+    /* margin: 0 0 0 10px; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 header form input{
-
-padding: 3px;
+width: 100px;
+border-radius: 5px;
+border: none;
+padding: 8px;
+margin: auto;
 }
 header i.fa-magnifying-glass{
-    margin-left: 10px;
-    margin-top: 5px;
-    border: solid 1px black;
     background-color: white;
-    padding: 2px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 2px;
 }
 header p{
-
-text-align: center;
+text-align: center;
+width: 100%;
+margin-top: 10px;
 }
 header p i.fa-hand-holding-dollar{
 
@@ -34,7 +47,8 @@ margin: 10px;
 
 /*------ nav-login------ */
 header nav.login-bar{
-display: none;
+
+display: none;
 }
 
 header nav.login-bar ul{
@@ -47,7 +61,8 @@ header nav.login-bar ul li{
 /*------nav-search-------*/
 
 header nav.search-bar{
-display: none;
+
+display: none;
 }
 
 header nav.search-bar ul{
@@ -84,28 +99,53 @@ margin-left: 14px;
 margin-top: 14px;
 }
 header img.banner{
-    width: 100%;
-    /* display: none; */
-    padding-top: 20px;
+    
+width: 100%;
+    
+/* display: none; */
+    
+padding-top: 20px;
 }
 
 /* header tablet ------------------- */
 
 @media (min-width: 361px) {
     
-header{}
+header{} 
 
-header img.logo{}
-
-header form{
-    display: block;
+header .contenedor-logo{
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-header form input{}
+header .contenedor-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
 
-header i.fa-magnifying-glass{}
+header img.logo{
+    width: 30%;
+}
 
-header p{}
+header form{
+    /* display: block; */
+    width: 30%;
+    position: relative;
+}
+
+header form input{width: 100px;}
+
+header i.fa-magnifying-glass{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+}
+
+header p{
+    width: 38%;
+}
 
 header p i.fa-hand-holding-dollar{}
 
@@ -114,9 +154,13 @@ header nav.login-bar{
     display: block;
 }
 
-header nav.login-bar ul{}
+header nav.login-bar ul{
+    display: flex;
+}
 
-header nav.login-bar ul li{}
+header nav.login-bar ul li{
+    padding-right: 6px;
+}
 
 /*------nav-search-------*/
 
@@ -124,9 +168,13 @@ header nav.search-bar{
     display: block;
 }
 
-header nav.search-bar ul{}
+header nav.search-bar ul{
+    display: flex;
+}
 
-header nav.search-bar ul li{}
+header nav.search-bar ul li{
+    padding-right: 6px;
+}
 
 header i.fa-id-card{}
 
@@ -148,25 +196,39 @@ header img.banner{}
 @media (min-width: 769px) {
     
 header{}
+header .contenedor-logo{
+    /* justify-content: center; */
+    align-items: center;
+}
+
+header .contenedor-bar{
+    margin-top: 20px;
+}
 
 header img.logo{}
 
-header form{}
+header form{
+    display: flex;
+    justify-content: center;
+}
 
-header form input{}
+header form input{margin: 0;width: auto;}
 
 header i.fa-magnifying-glass{}
 
-header p{}
+header p{margin-top: 0;}
 
 header p i.fa-hand-holding-dollar{}
 
 /*------ nav-login------ */
-header nav.login-bar{}
+header nav.login-bar{
+}
 
 header nav.login-bar ul{}
 
-header nav.login-bar ul li{}
+header nav.login-bar ul li{
+    margin-right: 10px;
+}
 
 
 /*------nav-search-------*/
@@ -175,7 +237,7 @@ header nav.search-bar{}
 
 header nav.search-bar ul{}
 
-header nav.search-bar ul li{}
+header nav.search-bar ul li{margin-right: 10px;}
 
 header i.fa-id-card{}
 
@@ -190,4 +252,4 @@ header i.fa-basket-shopping{}
 header img.banner{}
     
 }
-
+

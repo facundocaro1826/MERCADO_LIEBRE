@@ -1,6 +1,5 @@
 main{
-
-padding: 10px;
+padding: 10px;
 }
 /*------section ultima-vista-------- */
 main section.ultima-vista{
@@ -17,6 +16,8 @@ text-align: center;
 
 padding-bottom: 20px;
 }
+main section.ultima-vista .contenedor-article{
+}
 
 main section.ultima-vista article{
    margin: auto;
@@ -25,17 +26,23 @@ main section.ultima-vista article{
 
 main section.ultima-vista article img{
     width: 90%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 main article .container_descripcion{
     
 border-top: 1px solid #ebebeb;
     
 padding: 15px;
+    
+position: relative;
+    
+display: flex;
+    
+flex-wrap: wrap;
 }
 main article .container_descripcion i.fa-truck{
     
-display: inline-block;
+display: block;
     
 color: #26b33b;
     
@@ -43,8 +50,18 @@ border: solid 1px #26b33b;
     
 border-radius: 50%;
     
-padding: 15px;
+padding: 5px;
+    
+position: absolute;
+    
+right: 20px;
+    
+top: -15px;
+    
+font-size: 16px;
 }
+main article .container_descripcion p.precio{}
+main article .container_descripcion p.descuento{}
 
 /*-----SECCION OFERTAS-----*/
 
@@ -60,6 +77,7 @@ text-align: center;
 
 padding-bottom: 20px;
 }
+main section.ofertas .contenedor-article{}
 
 main section.ofertas article{
 
@@ -68,33 +86,51 @@ margin-bottom: 10px;
 
 main section.ofertas article img{
     width: 90%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
+
 
 
 /* main tablet------------------ */
 @media (min-width: 361px){
-    main{
-}
+    main{/* display: flex; */}
 
         /*------section ultima-vista-------- */
-        main section.ultima-vista{}
+        main section.ultima-vista{
+}
             
-        main section.ultima-vista h2{}
-        
+        main section.ultima-vista h2{
+    font-size: 20px;
+}
+    main section.ultima-vista .contenedor-article{
+    display: flex;
+    flex-wrap: wrap;
+}  
+
         main section.ultima-vista article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 90%;
+    width: 47%;
 }
         
-        main section.ultima-vista article img{}
+    main section.ultima-vista article img{}
 
-        main article .container_descripcion{}
+    main article .container_descripcion{
+    padding: 5px;
+}
+    main article .container_descripcion i.fa-truck{
+    right: 5px;
+    font-size: 12px;
+    top: -10px;
+}
+    main article .container_descripcion p.precio{
+    padding-top: 10px;
+}
 
-        main article .container_descripcion i.fa-truck{}
-        
-        main article .container_descripcion h3.descripcion{
+    main article .container_descripcion p.descuento{}
+
+    main article .container_descripcion h3.descripcion{
     display: block;
+    margin-top: 15px;
 }
         
         /*-----SECCION OFERTAS-----*/
@@ -104,36 +140,53 @@ main section.ofertas article img{
         }
         main section.ofertas h2{
         
+font-size: 20px;
         }
         
-        main section.ofertas article{
-       
-box-shadow: 0px 0px 10px rgb(100, 100, 100);
-       
-width: 90%;
-       
-margin: auto;
-       
-margin-bottom: 10px;
-       
+    main section.ofertas article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 47%;
+    margin: auto;
+    margin-bottom: 10px;
+    }
+    main section.ofertas .contenedor-article{
+    display: flex;
+    flex-wrap: wrap;
 }
-        main section.ofertas article img{
+
+    main section.ofertas article img{
         
-        }
+    }
+   main  .container_descripcion p.precio{}
+
+   main  article .container_descripcion p.descuento{
+    text-align: center;
+    padding-top: 10px;
+}
          
 } 
 
 
 /* main desktop  */
 @media (min-width: 769px){
-    main{}
+    main{
+    /* display: flex; */
+    display: block;
+}
 
         /*------section ultima-vista-------- */
-        main section.ultima-vista{}
+        main section.ultima-vista{
+}
             
         main section.ultima-vista h2{}
+
+        main section.ultima-vista .contenedor-article{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
         
-        main section.ultima-vista article{}
+        main section.ultima-vista article{width: 22%;}
         
         main section.ultima-vista article img{}
 
@@ -142,27 +195,38 @@ margin-bottom: 10px;
 
         main article .container_descripcion i.fa-truck{
     font-size: 20px;
+    right: 5px;
+    top: -15px;
 }
 
         main article .container_descripcion h3.descripcion{}
 
         /*-----SECCION OFERTAS-----*/
         
-        main section.ofertas{   
+        main section.ofertas{
         }
+       
         main section.ofertas h2{
         
         }
-        
+        main section.ofertas .contenedor-article{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+} 
         main section.ofertas article{
-       
-box-shadow: 0px 0px 10px rgb(100, 100, 100);
-       
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       width: 22%;
 }
-        main section.ofertas article img{}
+    main section.ofertas article img{}
 
-        main article .container_descripcion{}
-        main article .container_descripcion h3.descripcion{
+    main section.ofertas article .container_descripcion p.precio{}
+
+   main section.ofertas article .container_descripcion p.descuento{}
+
+    main article .container_descripcion{}
+
+    main article .container_descripcion h3.descripcion{
     display: block;
 }
          

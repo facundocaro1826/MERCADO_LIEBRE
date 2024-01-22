@@ -17,8 +17,12 @@
     --descripciones: 16px;
 
 }
-body{
+*{
+    margin: 0px;
+    padding:0px;
     box-sizing: border-box;
+}
+body{
     font-size: var(--cuerpoTexto);
     font-family: var(--fontRoboto);
     width: 90%;
@@ -46,12 +50,17 @@ h2{
 } 
 section p.precio{
     font-size: var(--precio);
+    width: 40%;
+    font-size: 16px;
+    padding-left: 5px;
 }
 
 
 section p.descuento{
     font-size: var(--precio);
     color: #26b33b;
+    width: 60%;
+    font-size: 15px;
 }
 
 
@@ -59,6 +68,7 @@ section h3.descripcion{
     font-size: var(--descripciones);
     margin: 0;
     display: none;
+    padding:  5px;
 }
 
 p.descripcion {
