@@ -36,10 +36,7 @@ ul{
     list-style: none; /* saca las biñetas */
    }
 
-article img{
-    width: 80;
-    width: 60;
-} 
+ 
 h2{
     font-size: var(--titulares);
     color: #646662;
