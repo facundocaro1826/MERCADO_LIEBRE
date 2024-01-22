@@ -22,10 +22,6 @@ footer section.medios-pago svg path{
 footer section.medios-pago{
 text-align: center;
 }
-footer section.medios-pago ul{
-
-margin: 10px 0px 0px 0px;
-}
 footer section.medios-pago h3{
  text-align: center;
 }
@@ -51,7 +47,7 @@ margin: auto;
 footer section.envios{
     text-align: center;
 }
-footer section.envios ul{
+footer section.envios{
 
 text-align: center;
 }
@@ -74,7 +70,7 @@ margin: auto;
 footer section.seguridad{
  text-align: center;
 }
-footer section.seguridad ul{
+footer section.seguridad{
 
 text-align: center;
 }
