@@ -7,10 +7,14 @@ header{
 header {}
 
 header img.logo{
-width: 50%;
-/* margin: 5px; */
+width: 100%;
 }
 header .contenedor-logo{display: flex;flex-wrap: wrap;padding: 10px;align-items: center;justify-content: space-between;}
+
+header .contenedor-logo a.logo{
+    display: inline-block;
+    width: 50%;
+}
 
 header .contenedor-bar{}
 
@@ -22,27 +26,40 @@ header form{
     align-items: center;
 }
 header form input{
-width: 100px;
-border-radius: 5px;
-border: none;
-padding: 8px;
-margin: auto;
+
+width: 100px;
+
+border-radius: 5px;
+
+border: none;
+
+padding: 8px;
+
+margin: auto;
 }
 header i.fa-magnifying-glass{
-    background-color: white;
-    padding: 8px;
-    display: inline-block;
-    border-radius: 5px;
-    margin-right: 2px;
+    
+background-color: white;
+    
+padding: 8px;
+    
+display: inline-block;
+    
+border-radius: 5px;
+    
+margin-right: 2px;
 }
 header p{
-text-align: center;
-width: 100%;
-margin-top: 10px;
+
+text-align: center;
+
+width: 100%;
+
+margin-top: 10px;
 }
 header p i.fa-hand-holding-dollar{
 
-margin: 10px;
+margin: 0 10px 0 5px;
 }
 
 /*------ nav-login------ */
@@ -116,7 +133,11 @@ header{}
 header .contenedor-logo{
     flex-wrap: wrap;
     justify-content: center;
+    gap: 4px;
+    align-items: center;
 }
+
+header .contenedor-logo a.logo{display: inline-block;width: 30%;}
 
 header .contenedor-bar{
     display: flex;
@@ -126,7 +147,7 @@ header .contenedor-bar{
 }
 
 header img.logo{
-    width: 30%;
+    width: 100%;
 }
 
 header form{
@@ -140,41 +161,54 @@ header form input{width: 100px;}
 header i.fa-magnifying-glass{
     position: absolute;
     right: 0px;
-    top: 2px;
 }
 
 header p{
-    width: 38%;
-    font-size: 10px;
+    width: 35%;
+    font-size: 8px;
+    text-align: center;
+    margin: 0;
 }
 
-header p i.fa-hand-holding-dollar{}
+header p i.fa-hand-holding-dollar{
+}
 
 /*------ nav-login------ */
 header nav.login-bar{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    justify-content: space-around;
 }
 
 header nav.login-bar ul{
+    margin: 0;
     display: flex;
 }
 
 header nav.login-bar ul li{
     padding-right: 6px;
+    font-size: 10px;
 }
 
 /*------nav-search-------*/
 
 header nav.search-bar{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    justify-content: space-around;
 }
 
 header nav.search-bar ul{
     display: flex;
+    margin: 0;
 }
 
 header nav.search-bar ul li{
     padding-right: 6px;
+    font-size: 10px;
+    text-align: center;
 }
 
 header i.fa-id-card{}
@@ -194,12 +228,18 @@ header img.banner{}
 }
 
 /* ---header desktop----------------------  */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     
 header{}
 header .contenedor-logo{
     /* justify-content: center; */
+    display: flex;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+header .contenedor-logo a.logo{
+    width: 35%;
 }
 
 header .contenedor-bar{
@@ -211,13 +251,16 @@ header img.logo{}
 header form{
     display: flex;
     justify-content: center;
+    width: 30%;
 }
 
 header form input{margin: 0;width: auto;}
 
-header i.fa-magnifying-glass{}
+header i.fa-magnifying-glass{
+    height: 30px;
+}
 
-header p{margin-top: 0;font-size: 14px;}
+header p{margin-top: 0;width: 35%;margin: 0;font-size: 10px;}
 
 header p i.fa-hand-holding-dollar{}
 
@@ -253,4 +296,69 @@ header i.fa-basket-shopping{}
 header img.banner{}
     
 }
-
+
+/* ---header escritorio-------------------  */
+@media (min-width: 1024px) {
+    
+    header{}
+    header .contenedor-logo{}
+    
+    header .contenedor-logo a.logo{}
+    
+    header .contenedor-bar{}
+    
+    header img.logo{}
+    
+    header form{}
+    
+    header form input{}
+    
+    header i.fa-magnifying-glass{}
+    
+    header p{
+    font-size: 14px;
+}
+    
+    header p i.fa-hand-holding-dollar{}
+    
+    /*------ nav-login------ */
+    header nav.login-bar{
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    header nav.login-bar ul{}
+    
+    header nav.login-bar ul li{
+       
+font-size: 14px;
+    }
+    
+    
+    /*------nav-search-------*/
+    
+    header nav.search-bar{
+    display: flex;
+    justify-content: space-around;
+}
+    
+    header nav.search-bar ul{}
+    
+    header nav.search-bar ul li{
+    font-size: 14px;
+}
+    
+    header i.fa-id-card{}
+    
+    header i.fa-right-to-bracket{}
+    
+    header i.fa-basket-shopping{}
+    
+    .burguer-menu{}
+    
+    .burguer-menu svg{}
+    
+    header img.banner{}
+        
+    }
+

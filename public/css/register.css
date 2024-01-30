@@ -1,0 +1,286 @@
+/* main */
+
+main.main-register{}
+
+main.main-register form.form-principal{
+     width: 80%;
+    margin: auto;
+}
+
+main.main-register form.form-principal .registro{}
+
+main.main-register form.form-principal h4.fecha{
+    
+margin-top: 20px;
+    
+text-align: center;
+    
+width: 100%;
+}
+
+main.main-register form.form-principal .perfil{display: flex;flex-wrap: wrap;border-top: 3px solid #d7d5d5;padding: 20px 0;}
+
+
+main.main-register form.form-principal .perfil h4.tipo-perfil{
+    width: 100%;
+    text-align: center;
+} 
+main.main-register form.form-principal .perfil .marcador-perfil{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.main-register form.form-principal .interes{
+    border-top: 3px solid #d7d5d5;
+    margin-bottom: 20px;
+}
+
+main.main-register form.form-principal .interes h4.titulo-interes{
+    text-align: center;
+}
+
+main.main-register form.form-principal .perfil-foto{
+    border-top: 3px solid #d7d5d5;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+}
+main.main-register form.form-principal .perfil-foto h4.foto{
+    text-align: center;
+    width: 100%;
+}
+
+main.main-register form.form-principal .perfil-foto figure.avatar{
+    width: 273px;
+    height: 150px;
+    flex-grow: 1;
+}
+
+main.main-register form.form-principal .perfil-foto figure.avatar img{
+    width: 150px;
+    border-radius: 50%;
+    background-color: beige;
+    display: block;
+    margin: auto;
+}
+
+main.main-register form.form-principal .perfil-foto input.inp{
+    flex-grow: 1;
+    display: block;
+}
+
+ma{
+    border-top: 3px solid #d7d5d5;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.acceso {
+    margin-bottom: 20px;
+    border-top: 3px solid #d7d5d5;
+}
+
+main.main-register form.form-principal .acceso .contrasenia{
+    margin-bottom: 10px;
+    width: 100%;
+    /* border-top: 3px solid #d7d5d5; */
+    margin: auto;
+}
+
+main.main-register form.form-principal .acceso .confir{
+}
+
+
+/* button */
+
+main.main-register form.form-principal .button{
+    justify-content: center;
+    border-top: 3px solid #d7d5d5;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+main.main-register form.form-principal .button .submit{
+    width: 100px;
+    background-color: var(--celeste);
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: solid 1px rgb(168 152 216);
+    color: white;
+}
+main.main-register form.form-principal .button .submit:hover{
+ background-color: #ed527e;
+ color: aliceblue;
+ border: #d1bfd2;
+}
+
+main.main-register form.form-principal .button .reset{
+    width: 100px;
+    background-color: var(--celeste);
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: solid 1px rgb(167 170 241);
+    color: white;
+}
+
+main.main-register form.form-principal .button .reset:hover{
+    background-color: #ed527e;
+    color: aliceblue;
+    border: #d1bfd2;
+}
+
+
+/* tablet */
+
+@media (min-width: 748px) {
+    /* main */
+
+main.main-register{}
+
+main.main-register form.form-principal{
+    
+}
+
+main.main-register form.form-principal .registro{}
+
+main.main-register form.form-principal h4.fecha{
+    
+
+}
+
+main.main-register form.form-principal .perfil{}
+
+
+main.main-register form.form-principal .perfil h4.tipo-perfil{} 
+
+main.main-register form.form-principal .perfil .marcador-perfil{}
+
+main.main-register form.form-principal .interes{}
+
+main.main-register form.form-principal .interes h4.titulo-interes{}
+
+main.main-register form.form-principal .perfil-foto{}
+
+main.main-register form.form-principal .perfil-foto h4.foto{}
+
+
+main.main-register form.form-principal .perfil-foto figure.avatar{}
+
+main.main-register form.form-principal .perfil-foto figure.avatar img{}
+
+main.main-register form.form-principal .perfil-foto input.inp{}
+
+main.main-register form.form-principal .acceso{
+    width: 90%;
+    margin: auto;
+}
+
+.acceso {}
+
+main.main-register form.form-principal .acceso .contrasenia{
+    width: 70%;
+}
+
+main.main-register form.form-principal .acceso .confir{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* button */
+
+main.main-register form.form-principal .button{}
+
+main.main-register form.form-principal .button .submit{}
+
+main.main-register form.form-principal .button .submit:hover{}
+
+main.main-register form.form-principal .button .reset{}
+
+main.main-register form.form-principal .button .reset:hover{}
+
+}
+
+/* escritorio */
+
+@media (min-width: 1024px) {
+    /* main */
+
+main.main-register{}
+
+main.main-register form.form-principal{
+    width: 50%;
+}
+
+main.main-register form.form-principal .registro{
+    margin: auto;
+}
+
+main.main-register form.form-principal h4.fecha{
+    
+
+}
+
+main.main-register form.form-principal .perfil{}
+
+
+main.main-register form.form-principal .perfil h4.tipo-perfil{} 
+
+main.main-register form.form-principal .perfil .marcador-perfil{}
+
+main.main-register form.form-principal .interes{}
+
+main.main-register form.form-principal .interes h4.titulo-interes{}
+
+main.main-register form.form-principal .perfil-foto{
+}
+
+main.main-register form.form-principal .perfil-foto h4.foto{}
+
+
+main.main-register form.form-principal .perfil-foto figure.avatar{}
+
+main.main-register form.form-principal .perfil-foto figure.avatar img{
+    width: 140px;
+}
+
+main.main-register form.form-principal .perfil-foto input.inp{
+}
+
+main.main-register form.form-principal .acceso{
+    margin: 10px auto;
+    padding: 0;
+}
+
+.acceso {}
+
+main.main-register form.form-principal .acceso .contrasenia{
+    width: 60%;
+}
+
+main.main-register form.form-principal .acceso .confir{
+    width: 60%;
+}
+
+
+/* button */
+
+main.main-register form.form-principal .button{}
+
+main.main-register form.form-principal .button .submit{}
+
+main.main-register form.form-principal .button .submit:hover{}
+
+main.main-register form.form-principal .button .reset{}
+
+main.main-register form.form-principal .button .reset:hover{}
+
+}

@@ -1,5 +1,6 @@
 main{
-padding: 10px;
+
+padding: 10px;
 }
 /*------section ultima-vista-------- */
 main section.ultima-vista{
@@ -116,6 +117,7 @@ main section.ofertas article img{
 
     main article .container_descripcion{
     padding: 5px;
+    height: 92px;
 }
     main article .container_descripcion i.fa-truck{
     right: 5px;
@@ -168,7 +170,7 @@ font-size: 20px;
 
 
 /* main desktop  */
-@media (min-width: 769px){
+@media (min-width: 768px){
     main{
     /* display: flex; */
     display: block;
@@ -194,7 +196,7 @@ font-size: 20px;
        
 
         main article .container_descripcion i.fa-truck{
-    font-size: 20px;
+    font-size: 16px;
     right: 5px;
     top: -15px;
 }
@@ -215,8 +217,10 @@ font-size: 20px;
     flex-wrap: wrap;
 } 
         main section.ofertas article{
-       box-shadow: 0px 0px 10px rgb(100, 100, 100);
-       width: 22%;
+       
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       
+width: 22%;
 }
     main section.ofertas article img{}
 

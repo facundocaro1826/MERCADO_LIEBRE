@@ -1,0 +1,204 @@
+main.main-login{}
+
+main.main-login form.form-principal{}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{}
+
+main.main-login form.form-principal .boton a.submit{}
+
+
+/*tablet*/
+
+@media (min-width: 361px) {
+    main.main-login{}
+
+main.main-login form.form-principal{}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{}
+
+main.main-login form.form-principal .boton a.submit{}
+}
+
+main.main-login{}
+
+ma{}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{}
+
+main.main-login form.form-principal .boton a.submit{}
+
+
+
+
+
+/*tablet*/
+
+@media (min-width: 768px) {
+    main.main-login{}
+
+main.main-login form.form-principal{
+    width: 60%;
+    margin: auto;
+}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{}
+
+main.main-login form.form-principal .boton a.submit{}
+}
+
+main.main-login{}
+
+main.main-login form.form-principal{}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{}
+
+main.main-login form.form-principal .boton a.submit{}
+
+
+
+
+
+/*tablet*/
+
+@media (min-width: 1024px) {
+    main.main-login{}
+
+main.main-login form.form-principal{}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{}
+
+main.main-login form.form-principal .boton a.submit{}
+}
+
+main.main-login{}
+
+main.main-login form.form-principal{}
+
+main.main-login form.form-principal .login{}
+
+main.main-login form.form-principal .login .contrasenia{}
+
+main.main-login form.form-principal .login .contrasenia label{}
+
+main.main-login form.form-principal .login .contrasenia input{}
+
+main.main-login form.form-principal .login .confir{}
+
+main.main-login form.form-principal .login .confir label{}
+
+main.main-login form.form-principal .login .confir input{}
+
+/* boton */
+
+main.main-login form.form-principal .boton{
+    width: 70%;
+    margin: 20px auto;
+}
+
+main.main-login form.form-principal .boton a.submit{
+    border: 1px solid #879be7;
+    background-color: var(--celeste);
+    color: white;
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 7px;
+}

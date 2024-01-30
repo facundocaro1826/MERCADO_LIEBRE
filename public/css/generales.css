@@ -8,6 +8,7 @@
     --celeste: #1259c3;
     --grisOscuro: #ebebeb;
     --verde: #39b54a;
+    --rosa: #e67676;
 
     /*---TAMAÑOS TIPOGRAFICOS-----*/
     --cuerpoTexto: 12px;
@@ -33,7 +34,8 @@ main{
 }    
 a{
   color: black;
-  text-decoration: none; /* saca el subrayado */ 
+  text-decoration: none; /* saca el subrayado */
+  width: 50%;
 }
 ul{
     padding: 0;
