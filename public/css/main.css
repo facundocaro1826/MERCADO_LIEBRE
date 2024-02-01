@@ -18,8 +18,11 @@ text-align: center;
 padding-bottom: 20px;
 }
 main section.ultima-vista .contenedor-article{
+   
 }
-
+main section.ultima-vista article:hover{
+     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
 main section.ultima-vista article{
    margin: auto;
    margin-bottom: 10px;
@@ -60,9 +63,25 @@ right: 20px;
 top: -15px;
     
 font-size: 16px;
+
+transition:  all 450ms;
+}
+main article .container_descripcion i.fa-truck:hover{
+    transform: rotate(-90deg);
+    
 }
 main article .container_descripcion p.precio{}
+
 main article .container_descripcion p.descuento{}
+
+main article .container_descripcion h3.descripcion{
+margin-top: 30px;
+display: none;
+}
+
+main article:hover h3.descripcion{ 
+
+    display: block;}
 
 /*-----SECCION OFERTAS-----*/
 
@@ -81,8 +100,12 @@ padding-bottom: 20px;
 main section.ofertas .contenedor-article{}
 
 main section.ofertas article{
+   
+    margin-bottom: 10px;
+}
 
-margin-bottom: 10px;
+main section.ofertas article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section.ofertas article img{
@@ -108,16 +131,15 @@ main section.ofertas article img{
     flex-wrap: wrap;
 }  
 
-        main section.ultima-vista article{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 47%;
+    main section.ultima-vista article{
+  width: 47%;
 }
         
     main section.ultima-vista article img{}
 
     main article .container_descripcion{
     padding: 5px;
-    height: 92px;
+    height: 94px;
 }
     main article .container_descripcion i.fa-truck{
     right: 5px;
@@ -125,15 +147,17 @@ main section.ofertas article img{
     top: -10px;
 }
     main article .container_descripcion p.precio{
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
     main article .container_descripcion p.descuento{}
 
     main article .container_descripcion h3.descripcion{
-    display: block;
-    margin-top: 15px;
-}
+   margin: 15px auto;
+   }
+    main article .container_descripcion h3.descripcion:hover{
+     
+    }
         
         /*-----SECCION OFERTAS-----*/
         
@@ -146,11 +170,11 @@ font-size: 20px;
         }
         
     main section.ofertas article{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 47%;
-    margin: auto;
-    margin-bottom: 10px;
+    width: 47%;
+    margin: auto;
+    margin-bottom: 10px;
     }
+
     main section.ofertas .contenedor-article{
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +187,7 @@ font-size: 20px;
 
    main  article .container_descripcion p.descuento{
     text-align: center;
-    padding-top: 10px;
+    margin-top: 10px;
 }
          
 } 
@@ -218,7 +242,7 @@ font-size: 20px;
 } 
         main section.ofertas article{
        
-box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
        
 width: 22%;
 }
@@ -231,8 +255,9 @@ width: 22%;
     main article .container_descripcion{}
 
     main article .container_descripcion h3.descripcion{
-    display: block;
+    
 }
+    main article .container_descripcion h3.descripcion:hover{}
          
 } 
 

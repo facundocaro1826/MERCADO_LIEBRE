@@ -9,6 +9,7 @@
     --grisOscuro: #ebebeb;
     --verde: #39b54a;
     --rosa: #e67676;
+    --button: #0022AA;
 
     /*---TAMAÑOS TIPOGRAFICOS-----*/
     --cuerpoTexto: 12px;
@@ -66,13 +67,10 @@ section p.descuento{
 section h3.descripcion{
     font-size: var(--descripciones);
     margin: 0;
-    display: none;
     padding:  5px;
 }
 
-p.descripcion {
-    display: none;
-}
+
 article{
     background-color: rgb(249, 251, 253);
 }

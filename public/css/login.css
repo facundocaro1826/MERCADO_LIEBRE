@@ -20,7 +20,13 @@ main.main-login form.form-principal .login .confir input{}
 
 main.main-login form.form-principal .boton{}
 
-main.main-login form.form-principal .boton a.submit{}
+main.main-login form.form-principal .boton a.submit{
+    transition: all 450ms;
+}
+
+main.main-login form.form-principal .boton a.submit:hover{
+    background-color: var(--button);
+}
 
 
 /*tablet*/

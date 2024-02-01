@@ -1,6 +1,10 @@
 footer{
-padding-top: 20px;
-border: solid 2px #f3f0f0;
+
+padding-top: 20px;
+
+border: solid 2px #f3f0f0;
+
+flex-wrap: wrap;
 }
 /*------seccion medios de pago------*/
 footer section.medios-pago{
@@ -13,15 +17,18 @@ margin: auto;
 }
 footer section.medios-pago svg{
    margin: auto;
-  
-} 
+   display: block;
+}
+
+footer section.medios-pago svg path:hover{
+    fill: var(--button);
+}
+
 footer section.medios-pago svg path{
 
 }
 
-footer section.medios-pago{
-text-align: center;
-}
+footer section.medios-pago{text-align: center;}
 footer section.medios-pago ul{
 
 margin: 10px 0px 0px 0px;
@@ -48,6 +55,13 @@ margin: auto;
 
 /* margin-left: 90px; */
 } 
+
+footer section.envios svg path{}
+
+footer section.envios svg path:hover{
+    fill: var(--button);
+}
+
 footer section.envios{
     text-align: center;
 }
@@ -71,6 +85,13 @@ margin: auto;
 footer section.seguridad svg{
 margin: auto;
 } 
+
+footer section.seguridad svg path{}
+
+footer section.seguridad svg path:hover{
+    fill: var(--button);
+}
+
 footer section.seguridad{
  text-align: center;
 }
@@ -89,11 +110,179 @@ footer section.derechos-reservados{
 
 }
 footer section.derechos-reservados{
-
 }
-footer section.derechos-reservados h3{
-    text-align: center;
+footer section.derechos-reservados h3{margin: 20px auto;}
+
+
+
+/*tablet*/
+ 
+@media (min-width: 361px) {
+    footer{}
+
+    /*------seccion medios de pago------*/
+    footer section.medios-pago{}
+
+    footer section.medios-pago svg{}
+
+    footer section.medios-pago svg path{}
+    
+    footer section.medios-pago{}
+
+    footer section.medios-pago ul{}
+
+    footer section.medios-pago h3{}
+    
+    /*--------section envios-------*/
+    
+    footer section.envios{}
+
+    footer section.envios svg{} 
+
+    footer section.envios{}
+
+    footer section.envios ul{}
+
+    footer section.envios h3{}
+    
+    /*-----section seguridad------*/
+    
+    footer section.seguridad{}
+
+    footer section.seguridad svg{}
+
+    footer section.seguridad{}
+
+    footer section.seguridad ul{}
+
+    footer section.seguridad h3{}
+    
+    /*-------section derechos reservados----*/
+    
+    footer section.derechos-reservados{}
+
+    footer section.derechos-reservados{}
+
+    footer section.derechos-reservados h3{}
+}  
+
+
+
+
+/*footer desktop*/
+ 
+@media (min-width: 768px) {
+    footer{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+    /*------seccion medios de pago------*/
+    footer section.medios-pago{}
+
+    footer section.medios-pago svg{}
+
+    footer section.medios-pago svg path{}
+    
+    footer section.medios-pago{
+    width: 30%;
+}
+
+    footer section.medios-pago ul{}
+
+    footer section.medios-pago h3{}
+    
+    /*--------section envios-------*/
+    
+    footer section.envios{}
+
+    footer section.envios svg{} 
+
+    footer section.envios{
+    width: 30%;
+}
+
+    footer section.envios ul{}
+
+    footer section.envios h3{}
+    
+    /*-----section seguridad------*/
+    
+    footer section.seguridad{}
+
+    footer section.seguridad svg{}
+
+    footer section.seguridad{
+    width: 30%;
+}
+
+    footer section.seguridad ul{}
+
+    footer section.seguridad h3{}
+    
+    /*-------section derechos reservados----*/
+    
+    footer section.derechos-reservados{}
+
+    footer section.derechos-reservados{
+    width: 100%;
+}
+
+    footer section.derechos-reservados h3{}
+}
+
+
+
+
+/*escritorio*/
+ 
+@media (min-width: 1024px) {
+    footer{}
+
+    /*------seccion medios de pago------*/
+    footer section.medios-pago{}
+
+    footer section.medios-pago svg{}
+
+    footer section.medios-pago svg path{}
+    
+    footer section.medios-pago{}
+
+    footer section.medios-pago ul{}
+
+    footer section.medios-pago h3{}
+    
+    /*--------section envios-------*/
+    
+    footer section.envios{}
+
+    footer section.envios svg{} 
+
+    footer section.envios{}
+
+    footer section.envios ul{}
+
+    footer section.envios h3{}
+    
+    /*-----section seguridad------*/
+    
+    footer section.seguridad{}
+
+    footer section.seguridad svg{}
+
+    footer section.seguridad{}
+
+    footer section.seguridad ul{}
+
+    footer section.seguridad h3{}
+    
+    /*-------section derechos reservados----*/
+    
+    footer section.derechos-reservados{}
+
+    footer section.derechos-reservados{}
+
+    footer section.derechos-reservados h3{}
+}  
 
 
