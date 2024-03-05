@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('../partials/head', {title: 'Formulario de creación'}) %>
+<body>
+	<!-- Header -->
+	<%- include('../partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<div class="cardDelete" style="width: 40rem;">
+		<img src="/images/products/<%= product.image %>" class="card-img-top" alt="...">
+		<div class="card-body">
+		  <p class="card-text"><strong>Seguro deceas eliminar este producto :</strong> <%= product.name %>.</p>
+		</div>
+		<form action="/admin/eliminar-producto/<%= product.id %>?_method=DELETE" method="POST" >
+		<button type="submit" class="action-button delete ">ELIMINAR</button>
+		
+		<a href="/productos" class="action-button edit">CANCELAR</a>
+	</form>
+	  </div>
+	
+	
+
+	<!-- footer -->
+	<%- include('../partials/footer') %>
+	<!-- /footer -->
+</body>	
+</html>
