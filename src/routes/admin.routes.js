@@ -15,7 +15,7 @@ router.post('/crear-producto', uploadProducts.single('image'), store);
 
 /*** EDITAR ONE PRODUCT ***/ 
 router.get('/editar-producto/:id', edit); 
-router.put('/editar-producto/:id', update); 
+router.put('/editar-producto/:id',uploadProducts.single('image'), update); 
 
 
 /*** DELETE ONE PRODUCT***/ 
